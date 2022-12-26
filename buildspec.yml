@@ -6,7 +6,7 @@ env:
 phases:
   install:
     runtime-versions:
-      nodejs: 14.x
+      nodejs: 16.x
     commands:
       - echo Installing source NPM dependencies...
       - npm install
